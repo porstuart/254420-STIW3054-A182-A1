@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Metrics scope="Assignment 1" type="Project" date="2019-03-09" xmlns="http://metrics.sourceforge.net/2003/Metrics-First-Flat">
+   <Metric id = "VG" description ="McCabe Cyclomatic Complexity" max ="10" hint ="use Extract-method to split the method up">
+      <Values per = "method" avg = "1.846" stddev = "2.381" max = "10">
+         <Value name="calculation" source ="EffortEstimation.java" package ="src" value ="10"/>
+         <Value name="getEFactor" source ="ExperienceFactor.java" package ="src" value ="2"/>
+         <Value name="getTechFactor" source ="TechnicalFactor.java" package ="src" value ="2"/>
+         <Value name="Actor" source ="Actor.java" package ="src" value ="1"/>
+         <Value name="getActorPoint" source ="Actor.java" package ="src" value ="1"/>
+         <Value name="main" source ="EffortEstimation.java" package ="src" value ="1"/>
+         <Value name="ExperienceFactor" source ="ExperienceFactor.java" package ="src" value ="1"/>
+         <Value name="ExperienceFactor" source ="ExperienceFactor.java" package ="src" value ="1"/>
+         <Value name="getExpFactor" source ="ExperienceFactor.java" package ="src" value ="1"/>
+         <Value name="setExpFactor" source ="ExperienceFactor.java" package ="src" value ="1"/>
+         <Value name="TechnicalFactor" source ="TechnicalFactor.java" package ="src" value ="1"/>
+         <Value name="UseCase" source ="UseCase.java" package ="src" value ="1"/>
+         <Value name="getUseCase" source ="UseCase.java" package ="src" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "PAR" description ="Number of Parameters" max ="5" hint ="Move invoked method or pass an object">
+      <Values per = "method" avg = "2.308" stddev = "3.77" max = "13" maxinrange="false">
+         <Value name="TechnicalFactor" source ="TechnicalFactor.java" package ="src" value ="13" inrange="false"/>
+         <Value name="ExperienceFactor" source ="ExperienceFactor.java" package ="src" value ="8" inrange="false"/>
+         <Value name="Actor" source ="Actor.java" package ="src" value ="3"/>
+         <Value name="UseCase" source ="UseCase.java" package ="src" value ="3"/>
+         <Value name="main" source ="EffortEstimation.java" package ="src" value ="1"/>
+         <Value name="ExperienceFactor" source ="ExperienceFactor.java" package ="src" value ="1"/>
+         <Value name="setExpFactor" source ="ExperienceFactor.java" package ="src" value ="1"/>
+         <Value name="getActorPoint" source ="Actor.java" package ="src" value ="0"/>
+         <Value name="calculation" source ="EffortEstimation.java" package ="src" value ="0"/>
+         <Value name="getEFactor" source ="ExperienceFactor.java" package ="src" value ="0"/>
+         <Value name="getExpFactor" source ="ExperienceFactor.java" package ="src" value ="0"/>
+         <Value name="getTechFactor" source ="TechnicalFactor.java" package ="src" value ="0"/>
+         <Value name="getUseCase" source ="UseCase.java" package ="src" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NBD" description ="Nested Block Depth" max ="5" hint ="use Extract-method to split the method up">
+      <Values per = "method" avg = "1.308" stddev = "0.606" max = "3">
+         <Value name="calculation" source ="EffortEstimation.java" package ="src" value ="3"/>
+         <Value name="getEFactor" source ="ExperienceFactor.java" package ="src" value ="2"/>
+         <Value name="getTechFactor" source ="TechnicalFactor.java" package ="src" value ="2"/>
+         <Value name="Actor" source ="Actor.java" package ="src" value ="1"/>
+         <Value name="getActorPoint" source ="Actor.java" package ="src" value ="1"/>
+         <Value name="main" source ="EffortEstimation.java" package ="src" value ="1"/>
+         <Value name="ExperienceFactor" source ="ExperienceFactor.java" package ="src" value ="1"/>
+         <Value name="ExperienceFactor" source ="ExperienceFactor.java" package ="src" value ="1"/>
+         <Value name="getExpFactor" source ="ExperienceFactor.java" package ="src" value ="1"/>
+         <Value name="setExpFactor" source ="ExperienceFactor.java" package ="src" value ="1"/>
+         <Value name="TechnicalFactor" source ="TechnicalFactor.java" package ="src" value ="1"/>
+         <Value name="UseCase" source ="UseCase.java" package ="src" value ="1"/>
+         <Value name="getUseCase" source ="UseCase.java" package ="src" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "CA" description ="Afferent Coupling">
+      <Values per = "packageFragment" avg = "0" stddev = "0" max = "0">
+         <Value name="(default package)" package ="(default package)" value ="0"/>
+         <Value name="src" package ="src" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "CE" description ="Efferent Coupling">
+      <Values per = "packageFragment" avg = "0" stddev = "0" max = "0">
+         <Value name="(default package)" package ="(default package)" value ="0"/>
+         <Value name="src" package ="src" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "RMI" description ="Instability">
+      <Values per = "packageFragment" avg = "1" stddev = "0" max = "1">
+         <Value name="(default package)" package ="(default package)" value ="1"/>
+         <Value name="src" package ="src" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "RMA" description ="Abstractness">
+      <Values per = "packageFragment" avg = "0" stddev = "0" max = "0">
+         <Value name="(default package)" package ="(default package)" value ="?"/>
+         <Value name="src" package ="src" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "RMD" description ="Normalized Distance">
+      <Values per = "packageFragment" avg = "0" stddev = "0" max = "0">
+         <Value name="(default package)" package ="(default package)" value ="?"/>
+         <Value name="src" package ="src" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "DIT" description ="Depth of Inheritance Tree">
+      <Values per = "type" avg = "1" stddev = "0" max = "1">
+         <Value name="Actor" source ="Actor.java" package ="src" value ="1"/>
+         <Value name="EffortEstimation" source ="EffortEstimation.java" package ="src" value ="1"/>
+         <Value name="ExperienceFactor" source ="ExperienceFactor.java" package ="src" value ="1"/>
+         <Value name="TechnicalFactor" source ="TechnicalFactor.java" package ="src" value ="1"/>
+         <Value name="UseCase" source ="UseCase.java" package ="src" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "WMC" description ="Weighted methods per Class">
+      <Values per = "type" total = "24" avg = "4.8" stddev = "3.429" max = "11">
+         <Value name="EffortEstimation" source ="EffortEstimation.java" package ="src" value ="11"/>
+         <Value name="ExperienceFactor" source ="ExperienceFactor.java" package ="src" value ="6"/>
+         <Value name="TechnicalFactor" source ="TechnicalFactor.java" package ="src" value ="3"/>
+         <Value name="Actor" source ="Actor.java" package ="src" value ="2"/>
+         <Value name="UseCase" source ="UseCase.java" package ="src" value ="2"/>
+      </Values>
+   </Metric>
+   <Metric id = "NSC" description ="Number of Children">
+      <Values per = "type" total = "0" avg = "0" stddev = "0" max = "0">
+         <Value name="Actor" source ="Actor.java" package ="src" value ="0"/>
+         <Value name="EffortEstimation" source ="EffortEstimation.java" package ="src" value ="0"/>
+         <Value name="ExperienceFactor" source ="ExperienceFactor.java" package ="src" value ="0"/>
+         <Value name="TechnicalFactor" source ="TechnicalFactor.java" package ="src" value ="0"/>
+         <Value name="UseCase" source ="UseCase.java" package ="src" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NORM" description ="Number of Overridden Methods">
+      <Values per = "type" total = "0" avg = "0" stddev = "0" max = "0">
+         <Value name="Actor" source ="Actor.java" package ="src" value ="0"/>
+         <Value name="EffortEstimation" source ="EffortEstimation.java" package ="src" value ="0"/>
+         <Value name="ExperienceFactor" source ="ExperienceFactor.java" package ="src" value ="0"/>
+         <Value name="TechnicalFactor" source ="TechnicalFactor.java" package ="src" value ="0"/>
+         <Value name="UseCase" source ="UseCase.java" package ="src" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "LCOM" description ="Lack of Cohesion of Methods">
+      <Values per = "type" avg = "0.417" stddev = "0.258" max = "0.667">
+         <Value name="TechnicalFactor" source ="TechnicalFactor.java" package ="src" value ="0.667"/>
+         <Value name="ExperienceFactor" source ="ExperienceFactor.java" package ="src" value ="0.667"/>
+         <Value name="Actor" source ="Actor.java" package ="src" value ="0.5"/>
+         <Value name="UseCase" source ="UseCase.java" package ="src" value ="0.25"/>
+         <Value name="EffortEstimation" source ="EffortEstimation.java" package ="src" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOF" description ="Number of Attributes">
+      <Values per = "type" total = "13" avg = "2.6" stddev = "1.497" max = "4">
+         <Value name="ExperienceFactor" source ="ExperienceFactor.java" package ="src" value ="4"/>
+         <Value name="UseCase" source ="UseCase.java" package ="src" value ="4"/>
+         <Value name="TechnicalFactor" source ="TechnicalFactor.java" package ="src" value ="3"/>
+         <Value name="Actor" source ="Actor.java" package ="src" value ="2"/>
+         <Value name="EffortEstimation" source ="EffortEstimation.java" package ="src" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NSF" description ="Number of Static Attributes">
+      <Values per = "type" total = "0" avg = "0" stddev = "0" max = "0">
+         <Value name="Actor" source ="Actor.java" package ="src" value ="0"/>
+         <Value name="EffortEstimation" source ="EffortEstimation.java" package ="src" value ="0"/>
+         <Value name="ExperienceFactor" source ="ExperienceFactor.java" package ="src" value ="0"/>
+         <Value name="TechnicalFactor" source ="TechnicalFactor.java" package ="src" value ="0"/>
+         <Value name="UseCase" source ="UseCase.java" package ="src" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOM" description ="Number of Methods">
+      <Values per = "type" total = "11" avg = "2.2" stddev = "1.6" max = "5">
+         <Value name="ExperienceFactor" source ="ExperienceFactor.java" package ="src" value ="5"/>
+         <Value name="Actor" source ="Actor.java" package ="src" value ="2"/>
+         <Value name="TechnicalFactor" source ="TechnicalFactor.java" package ="src" value ="2"/>
+         <Value name="UseCase" source ="UseCase.java" package ="src" value ="2"/>
+         <Value name="EffortEstimation" source ="EffortEstimation.java" package ="src" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NSM" description ="Number of Static Methods">
+      <Values per = "type" total = "2" avg = "0.4" stddev = "0.8" max = "2">
+         <Value name="EffortEstimation" source ="EffortEstimation.java" package ="src" value ="2"/>
+         <Value name="Actor" source ="Actor.java" package ="src" value ="0"/>
+         <Value name="ExperienceFactor" source ="ExperienceFactor.java" package ="src" value ="0"/>
+         <Value name="TechnicalFactor" source ="TechnicalFactor.java" package ="src" value ="0"/>
+         <Value name="UseCase" source ="UseCase.java" package ="src" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "SIX" description ="Specialization Index">
+      <Values per = "type" avg = "0" stddev = "0" max = "0">
+         <Value name="Actor" source ="Actor.java" package ="src" value ="0"/>
+         <Value name="EffortEstimation" source ="EffortEstimation.java" package ="src" value ="0"/>
+         <Value name="ExperienceFactor" source ="ExperienceFactor.java" package ="src" value ="0"/>
+         <Value name="TechnicalFactor" source ="TechnicalFactor.java" package ="src" value ="0"/>
+         <Value name="UseCase" source ="UseCase.java" package ="src" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOC" description ="Number of Classes">
+      <Values per = "packageFragment" total = "5" avg = "5" stddev = "0" max = "5">
+         <Value name="src" package ="src" value ="5"/>
+         <Value name="(default package)" package ="(default package)" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOI" description ="Number of Interfaces">
+      <Values per = "packageFragment" total = "0" avg = "0" stddev = "0" max = "0">
+         <Value name="(default package)" package ="(default package)" value ="0"/>
+         <Value name="src" package ="src" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOP" description ="Number of Packages">
+      <Value value="1"/>
+   </Metric>
+   <Metric id = "TLOC" description ="Total Lines of Code">
+      <Value value="306"/>
+   </Metric>
+   <Metric id = "MLOC" description ="Method Lines of Code">
+      <Values per = "method" total = "250" avg = "19.231" stddev = "54.013" max = "206">
+         <Value name="calculation" source ="EffortEstimation.java" package ="src" value ="206"/>
+         <Value name="TechnicalFactor" source ="TechnicalFactor.java" package ="src" value ="13"/>
+         <Value name="ExperienceFactor" source ="ExperienceFactor.java" package ="src" value ="8"/>
+         <Value name="getEFactor" source ="ExperienceFactor.java" package ="src" value ="4"/>
+         <Value name="getTechFactor" source ="TechnicalFactor.java" package ="src" value ="4"/>
+         <Value name="Actor" source ="Actor.java" package ="src" value ="3"/>
+         <Value name="UseCase" source ="UseCase.java" package ="src" value ="3"/>
+         <Value name="getActorPoint" source ="Actor.java" package ="src" value ="2"/>
+         <Value name="getExpFactor" source ="ExperienceFactor.java" package ="src" value ="2"/>
+         <Value name="getUseCase" source ="UseCase.java" package ="src" value ="2"/>
+         <Value name="main" source ="EffortEstimation.java" package ="src" value ="1"/>
+         <Value name="ExperienceFactor" source ="ExperienceFactor.java" package ="src" value ="1"/>
+         <Value name="setExpFactor" source ="ExperienceFactor.java" package ="src" value ="1"/>
+      </Values>
+   </Metric>
+   </Metrics>
